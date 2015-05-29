@@ -16,8 +16,9 @@ html.no-js
     <!-- endbuild -->
     <!-- build:js /js/modernizr.js -->
     script(src='/bower/modernizr/modernizr.js')
+    script(src='/bower/angular/angular.min.js')
     <!-- endbuild -->
-  body
+  body(ng-app="ctApp")
     //- Browse Happy
     //- <http://browsehappy.com/>
     != "<!--[if lt IE 8]>"

@@ -1,0 +1,12 @@
+
+//- # comment - show
+
+extends ../layout
+
+block content
+  .container
+    .row
+      .col-md-4.col-md-offset-4
+        h1 Comment - #{comment.name}
+      
+        a(href='/comments/' + comment.id + '/edit') Edit Comment
