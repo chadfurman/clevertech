@@ -110,7 +110,7 @@ exports = module.exports = function() {
       },
       cookieParser: 'igloo-change-me',
       csrf: {
-        enabled: true,
+        enabled: false,
         options: {
           cookie: {
             maxAge: maxAge
