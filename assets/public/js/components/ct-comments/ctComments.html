@@ -1,0 +1,4 @@
+<input type="text" ng-model="newMessage" placeholder="Comment..."><button ng-click="addComment()">Add Comment</button>
+<ul>
+    <li ng-repeat="comment in comments">{{ ::comment.message }}</li>
+</ul>

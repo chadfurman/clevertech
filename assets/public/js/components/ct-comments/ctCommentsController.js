@@ -1,0 +1,2 @@
+(function (ctApp) {
+})(ctApp);
